@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryDark</item>
+        <item name="colorError">@color/colorRed</item>
+        <item name="colorOnError">@color/colorWhite</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorWindowBackground</item>
+        <item name="android:navigationBarColor">@color/colorWhite</item>
+        <item name="android:fontFamily">@font/sf_pro_medium</item>
+        <item name="android:textColorHint">@color/colorHints</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="OtpWidget.OtpView" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="TimePickerTheme" parent="AppTheme">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="CalendarViewTheme" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">14.5sp</item>
+        <item name="android:textColor">@color/calendar_text_color</item>
+        <item name="android:fontFamily">@font/sf_pro_semi_bold</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+    </style>
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>
