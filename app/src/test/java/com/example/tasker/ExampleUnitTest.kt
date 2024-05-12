@@ -1,4 +1,4 @@
-package com.example.taskapp
+package com.example.tasker
 
 import org.junit.Test
 

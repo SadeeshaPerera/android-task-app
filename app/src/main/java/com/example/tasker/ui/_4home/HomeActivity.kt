@@ -126,7 +126,7 @@ class HomeActivity : BaseActivity(), TaskListsAdapter.Callback {
 
             view.findViewById<AppCompatTextView>(R.id.privacy_policy).setOnClickListener {
                 val i = Intent(Intent.ACTION_VIEW)
-                i.data = Uri.parse("https://tasker-1.flycricket.io/privacy.html")
+                i.data = Uri.parse("https://www.google.com")
                 startActivity(i)
             }
 
@@ -143,7 +143,7 @@ class HomeActivity : BaseActivity(), TaskListsAdapter.Callback {
                     startActivity(
                         Intent(
                             Intent.ACTION_VIEW,
-                            Uri.parse("https://play.google.com/store/apps/details?id=$appPackageName")
+                            Uri.parse("https://www.google.com")
                         )
                     )
                 }
