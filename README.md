@@ -1,5 +1,11 @@
 <h1>Tasky--Android-Task-Management-App</h1>
 
+<p align="center">
+<a href="https://ibb.co/z8X1rm8"><img src="https://i.ibb.co/28vwyF8/yt-thumnail.png" alt="yt-thumnail" border="0"></a>
+</p>
+
+<h3>🔰 Demo Video: https://youtu.be/wW00BAkv7PM?si=1wkgkOZksN-z2sA7 </h3>
+
 Tasky is a simple, intuitive task management application developed for Android, that uses the powerful and modern Kotlin programming language.
 
 The application allows users to create, update, and delete tasks, providing a user-friendly interface for managing daily activities. Each task can have a description, and due date, offering a comprehensive overview of your tasks at a glance.
